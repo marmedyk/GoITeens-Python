@@ -55,8 +55,6 @@ print("третій спосіб"+2*Song2)
 
 
 #завдання #3
-name=''
-surname=''
 print('What\'s your name?')
 name = input()
 print('And surname')

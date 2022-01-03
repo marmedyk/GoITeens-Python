@@ -56,6 +56,7 @@ print("третій спосіб"+2*Song2)
 
 #завдання #3
 print('What\'s your name?')
+
 name = input()
 print('And surname')
 surname = input()

@@ -103,11 +103,3 @@ print(f'{x} to the power of {y} = {x**y}')
 print(f'You can divide {x} by {y} without modulo for {x//y} times')
 print(f'Modulo {x} % {y} = {x%y}')
 print('π = ', π1)
-
-
-
-
-
-
-
-

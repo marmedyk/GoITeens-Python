@@ -32,7 +32,7 @@ print('\ntask #2\n')
 given_string = '    i am gonna have my super power tomorrow morning so i am heading to bed now. Bye everyone   '
 
 print(len(given_string))
-print(given_string[4:-3])
+print(given_string.strip())
 print(given_string.count('a'))
 print(given_string.upper())
 print(given_string.lower())

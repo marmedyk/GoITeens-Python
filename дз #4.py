@@ -14,7 +14,7 @@ list_1 = [2,4,7,84,598,6378]
 index = 0
 sum = 0
 while index != len(list_1):
-    sum = sum + int(list_1[index])
+    sum += int(list_1[index])
     index += 1
 print(f'sum of all elements of list_1 = {sum}')
 
@@ -25,8 +25,6 @@ given_list = [False, 0, 'str', '123', 'hello', '%', 1.2, 1]
 index = 0
 while index != len(given_list):
    print(f'type of {given_list[index]} = {type(given_list[index])}')
-   if index == len(given_list):
-       break
    index += 1
 
 print('\nTask 4\n')
@@ -44,4 +42,4 @@ min_number = min(list_2)
 print(f'min number of list_2 = {min_number}')
 
 simmilar_elements = list(set(list_1) & set(list_2))
-print(simmilar_elements)
+print(f'simmilar elements = {simmilar_elements}')

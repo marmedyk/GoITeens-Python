@@ -148,12 +148,3 @@ else:
 if  min_number and upper_letter and lower_letter and digit and  special_symbol:
     print(f'Your password: {password}')
 
-
-
-
-
-
-
-
-
-
